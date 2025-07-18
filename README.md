@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Igreja Aqui
 
-## Getting Started
+**Igreja Aqui** é um webapp desenvolvido com Next.js que ajuda usuários a encontrar igrejas próximas à sua localização de forma rápida e intuitiva.
 
-First, run the development server:
+## Sobre o Projeto
+
+A ideia do projeto surgiu da necessidade de facilitar o acesso a informações sobre igrejas nas proximidades, seja para quem está viajando, mudou de cidade ou deseja conhecer novas comunidades. O objetivo é proporcionar uma experiência simples, moderna e eficiente para conectar pessoas a igrejas de diferentes denominações.
+
+## Principais Funcionalidades
+
+- **Busca por localização:** Encontre igrejas próximas utilizando geolocalização.
+- **Filtros personalizados:** Refine sua busca por denominação, horários de culto e outros critérios.
+- **Interface intuitiva:** Navegação fácil e responsiva, adaptada para dispositivos móveis e desktop.
+- **Informações detalhadas:** Veja endereço, contatos, horários e outras informações relevantes de cada igreja.
+
+## Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org) – Framework React para aplicações web modernas.
+- [TypeScript](https://www.typescriptlang.org/) – Tipagem estática para maior segurança e produtividade.
+- [Geolocalização via navegador](https://developer.mozilla.org/pt-BR/docs/Web/API/Geolocation_API)
+- [Mapas interativos](https://leafletjs.com/) (ou outra biblioteca de mapas, conforme implementação)
+
+## Como Executar
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone https://github.com/seu-usuario/igreja-aqui.git
+cd igreja-aqui
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no navegador para acessar o app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Próximos Passos
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Cadastro de novas igrejas pela comunidade
+- Avaliações e comentários de usuários
+- Integração com rotas e transporte público
 
-## Learn More
+## Contato
 
-To learn more about Next.js, take a look at the following resources:
+Fique à vontade para entrar em contato para sugestões, dúvidas ou oportunidades de colaboração!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Projeto desenvolvido para fins de aprendizado, portfólio e demonstração de habilidades técnicas.
