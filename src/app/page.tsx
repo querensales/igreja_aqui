@@ -1,6 +1,6 @@
 import Navbar from "./components/Navigation/Navbar";
-import FilterChurch from "./components/Navigation/FilterChurch/Filter";
-
+import FilterChurch from "./components/FilterChurch/Filter";
+import FilterDenomination from "./components/FilterDenomination/denomination";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <Navbar />
       <h1>Encontre uma igreja próxima a você</h1>
       <FilterChurch />
+      <FilterDenomination />
     </section>
   );
 }
