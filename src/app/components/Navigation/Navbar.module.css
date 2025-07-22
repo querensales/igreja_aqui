@@ -1,0 +1,27 @@
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid #e5e7eb;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.navbar-links{
+    display: flex;
+    gap: 1rem;
+   
+}
+
+.nav-item{
+    color: #4b5563;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.botao-sair{
+    background: red;
+    color: #fff;
+}

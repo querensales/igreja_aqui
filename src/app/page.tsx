@@ -1,10 +1,13 @@
+import Navbar from "./components/Navigation/Navbar";
+import FilterChurch from "./components/Navigation/FilterChurch/Filter";
 
 
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to IgrejaAqui</h1>
-      <p>Uma igreja perto de você</p>
-    </div>
+    <section>
+      <Navbar />
+      <h1>Encontre uma igreja próxima a você</h1>
+      <FilterChurch />
+    </section>
   );
 }
